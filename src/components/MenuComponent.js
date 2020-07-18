@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Media } from 'reactstrap';
 
 import { Card, CardImg, CardImgOverlay, CardText, CardBody,
     CardTitle } from 'reactstrap';
@@ -11,7 +10,7 @@ class Menu extends Component {
 
         this.state = {
             selectedDish: null
-        }
+        };
     }
 
     onDishSelect(dish) {
